@@ -1,10 +1,10 @@
 package powerpackage;
 public class PowerFinder {
-    public static int OF(int base, int Exponent) {
-        int p = 1;
-        for (int i = 0; i<Exponent; i++) {
-            p *= base;
+    public static int power(int base, int Exponent) {
+        int prod = 1;
+        for (int i= 0; i<Exponent; i++) {
+            prod *= base;
         }
-        return p;
+        return prod;
     }
 }
